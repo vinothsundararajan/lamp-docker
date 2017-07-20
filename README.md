@@ -41,3 +41,23 @@ mysql_secure_installation
 Test index files are located in,
 
 cd /var/www/html/
+
+Then i have saved docker container as a tar file by using the below command
+
+docker save ubuntu-lamp > ubuntu-lamp.tar
+
+and i have commited into my repo.
+
+Uploading to my git-hub as a tar file.
+  git init
+  git add .
+  git commit -m "Final commit_Ubuntu_lamp_docker"
+  git config --global user.name "vinothsundararajan"
+  git config --global user.email "vinothsundararajan@outlook.com"
+  git remote add origin https://github.com/vinothsundararajan/lamp-docker
+  git remote -v
+  git push -f origin master
+
+
+Thankyou.
+
