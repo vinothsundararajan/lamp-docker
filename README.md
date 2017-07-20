@@ -30,7 +30,9 @@ docker run -it -p 100:80 ubuntu-lamp /bin/bash
 Attach container by,
 docker attach 5b8126f47b29
 
-moving to docker conatiner,
+moving to docker container,
+
+
 apt-get update
 apt-get install libapache2-mod-php php
 apt-get install php5.6 libapache2-mod-php5.6
