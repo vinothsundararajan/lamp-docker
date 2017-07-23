@@ -72,6 +72,9 @@ Uploading to my git-hub as a tar file.
      git remote add origin https://github.com/vinothsundararajan/lamp-docker
      git remote -v
      git push -f origin master
+     
+Here i have faced the problem while uploading the tar file in git-hub. they are not allowing me to upload more than 100 mb.
+so i have created in bitbucket, also i have given my tar file as link in the file called source.
 
 
 Thankyou.
